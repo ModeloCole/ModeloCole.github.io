@@ -1,0 +1,182 @@
+/*                   General                      */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', 'sans-serif';
+}
+/*          Contenedor General          */
+.contendor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+/*          Fondo          */
+header {
+    background-color: #5F6FE8 ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+/* 			Logo			*/
+.Superior{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+.Logo{
+	margin: 15px;
+	margin-top: 25px;
+	margin-left: 25px;
+	height: 150px;
+	width: 150px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+@media(max-width: 375px) {
+    .Logo {
+        height: 75px;
+		width: 75px;
+    }
+}
+@media(max-width: 480px) {
+    .Logo {
+        height: 95px;
+		width: 95px;
+    }
+}
+.Redes{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+    align-items: flex-end;
+}
+/* 		Barra 			*/
+.Barra{
+	margin: 10px;
+	background-color: white;
+	display: flex;
+	border-radius: 10px;
+}
+.RS{
+	margin: 10px;
+	margin-top: 20px;
+}
+
+.RS-img{
+	height: 35px;
+	width: 35px;
+	margin: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.subtitulo2{
+	border-radius: 15px;
+	margin: 1px;
+	padding: 15px;
+	margin-right: 25px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.subtitulo2:hover {
+    background: rgb(255, 163, 163);
+}
+.fila{
+	display: flex;
+	flex-direction: row;
+}
+.MV{
+	height: 100vh;
+}
+/*		Panel 			*/
+.Panel{
+	margin: 20px;
+	height: 80%;
+	width: 98%;
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+@media(max-width: 600px) {
+    .Panel {
+	height: 50%;
+	width: 70%;
+    }
+}
+@media(max-width: 414px) {
+    .Panel {
+    	height: 60%;
+        width: 80%;
+    }
+}
+@media(max-width: 390px) {
+    .Panel {
+    	height: 66%;
+        width: 84%;
+    }
+}
+@media(max-width: 375px) {
+    .Panel {
+        width: 85%;
+        height: 65%;
+    }
+}
+
+.correo{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+/*          División         */
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#aa{
+}
+.flecha{
+	width: 50px;
+}
+
+.Texto{
+	margin: 20px;
+}
+.nivel{
+	margin: 25px 50px;
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+	background-color: #F9AF96;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.imagen{
+	margin: 20px;
+	width: 50%;
+	height: 50%;
+	border-radius: 10px;
+	background-color: #EDF66F;
+}
